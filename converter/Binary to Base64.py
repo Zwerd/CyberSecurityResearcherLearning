@@ -1,9 +1,5 @@
-##convert hex to binary
-hex1 = str(raw_input("Please enter only HEX number: "))
-binary = bin(int(hex1, 16))[2:]
-print binary
-##Binary to Base64
-bin1 = str(binary)
+##Binary to Decimal
+bin1 = str(raw_input("Enter Binary number: "))
 list1 = []
 def check_bin(bin1):
     bin1 = list(bin1)
@@ -16,5 +12,7 @@ def check_bin(bin1):
     return ''.join(bin1)
 
 for lop in range(len(bin1)):
-    list1.append(int(bin1[lop])*(64**((len(bin1)-1)-lop)))
+    list1.append(int(bin1[lop])*(2**((len(bin1)-1)-lop)))
 print sum(list1)
+
+def base64value()
