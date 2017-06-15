@@ -49,7 +49,7 @@ for lop in range(len(HexDecimal)):
     print binarystr
 
     ##check the binary and make the string of 24 bit long
-    if len(binarystr) == 24:
+    if len(binarystr) == 6:
         bin6long1 = binarystr[0:6]
         bin6long2 = binarystr[6:12]
         bin6long3 = binarystr[12:18]
