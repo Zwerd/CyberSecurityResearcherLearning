@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+</head>
+
+<script type="text/javascript" >
+	function person(name,age) {
+		this.name = name;
+		this.age = age;
+		this.yearsUntilRetire = yearsLeft;
+				
+	}
+
+	function yearsLeft() {
+		var numYears = 65 - this.age
+		return numYears;
+		
+	}
+	var guy = new person("Guy", 29);
+	var adi = new person("Adi", 31);	
+	
+
+</script>
+
+</head>
+<body>
+
+<script type="text/javascript" >
+	document.write(adi.yearsUntilRetire() + "<br>");
+	document.write(adi.age);
+</script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<link href="main.css" rel="stylesheet"/>
+</head>
+<body >
+	<h1>My Webpage</h1>
+	<ul>
+		<li>Home</li>
+		<li><a href="page2.html">Page 2</a></li>
+		<li><a href="page3.html">Page 3</a></li>	
+	</ul>
+	<h2>This is my homepage</h2>
+	<p>And all of my homepage contect</p>
+
+</body>
+</html>

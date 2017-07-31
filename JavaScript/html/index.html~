@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Zwerd</title>
+		<!--This is the CSS for the header of the webpage-->
+		<link rel='stylesheet' type="text/css" href='style.css'>
+		
+	</head>
+	<body>
+	
+	<div id="header">
+		<div class="container">
+			<div id = "logoArea"</div>
+			<div id = "navArea">
+				<ul id = "nav">
+					<a href = "#"><li>Home</li></a>
+					<a href = "#"><li>Products</li></a>
+					<a href = "#"><li>Services</li></a>
+					<a href = "#"><li>Portfolio</li></a>
+					<a href = "#"><li>About</li></a>				
+				</ul>	
+	</body>	
+</head>
+</html>
