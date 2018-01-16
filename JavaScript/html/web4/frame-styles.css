@@ -1,0 +1,132 @@
+body {
+  background-color: #f4f4f4;
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  margin: 0;
+}
+
+/* for post page */
+#post #penguin {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 100px;
+  width: 73px;
+
+}
+
+#post #header {
+  background-color: #35424a;
+  color:#ffffff;
+  font-size: 50px;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+
+
+}
+
+#post #header div {
+  position: relative;
+  bottom: 10px;
+  margin: 1px 10px 10px 1px;
+  padding-left: 14px;
+  display: inline-block;
+}
+
+#level2 .date {
+  font-size: 10px;
+}
+
+#level2 textarea {
+  border: 1px solid #C4C4C4;
+  box-shadow: 0 1px 2px #DDDDDD inset;
+  padding: 8px 9px;
+  background-color: white;
+  color: #666;
+}
+
+#level2 .message {
+  margin-top: 5px;
+  position: relative;
+}
+
+#level2 .shim {
+  position: absolute;
+  background: url("//ssl.gstatic.com/s2/oz/images/sprites/stream-e001443aa61c5529c1aa133a9c12bb49.png") no-repeat scroll -119px -52px transparent;
+  margin-left: -20px;
+  top: 15px;
+  height: 21px;
+  width: 10px;
+}
+
+
+}
+
+#level2 .message-container {
+  padding: 10px;
+  background-color: #F9F9F9;
+  border: 1px solid #C4C4C4;
+  border-radius: 5px 5px;
+  width: 400px;
+  font-size: 12px;
+}
+
+#level2 .message-container b {
+  display: block;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #eee;
+}
+
+#level2 form {
+  display: inline;
+}
+
+#level2 input {
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  height: 27px;
+  line-height: 27px;
+  margin-right: 16px;
+  margin-top: 3px;
+  min-width: 54px;
+  opacity: 0.7;
+  outline: 0 none;
+  padding: 0 8px;
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+
+#level2 .share {
+  background: none repeat scroll 0 0 #3D9400;
+  border: 1px solid #29691D;
+  float: right;
+}
+
+#level2 .clear {
+  background: none repeat scroll 0 0 #a00;
+  border: 1px solid #600;
+  margin-right: 0px;
+  margin-top: -1px;
+  float: right;
+  position: relative;
+  bottom: 8px;
+  right: 10px;
+}
+
+#level2 .message-container .clear {
+  margin-right: 0px;
+  margin-top: -1px;
+  position: relative;
+  bottom: 8px;
+  right: 10px;
+}
+
+#level2 .clear {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}

@@ -1,0 +1,61 @@
+<img src="logo.png" alt="" />			* { margin:  0; padding-bottom: 0; }
+			<!--This is the background of the webpage-->
+			body
+			{
+				font-family: arial;
+				background-color; #ebebe;
+			}
+			
+			#header
+			{
+				background-color: black;
+				height:  100px;
+				width: 100%;			
+			}
+			<!--This is the contimer it take the manu amd bring him to the center-->
+			.container		
+			{
+				width:  100px;
+				height:  100px;
+				margin: 	0 auto;		
+			}
+			#logoArea
+			{
+				width: 350px;
+				height: 100px;
+				background-image: url(logo.png);			
+				float: left;
+			}	
+			
+			#navArea
+			{
+				width: 0px;
+				height 100px;
+				float: right;			
+			}
+			
+			#nav
+			{
+				list-style: none;
+				width: 0px;
+				height 100px;
+				float: left;
+			}
+			
+			#nav a
+			{
+				color:  white;
+				text-decoration: none;
+				float: left;
+			}
+			
+			#nav li
+			{
+				float: right;
+				margin-left: 30px;
+				background-color: #252525;
+				padding: 8px;
+				border: 1px solid silver;
+				border-radius: 5px;
+			}
+	

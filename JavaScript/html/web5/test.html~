@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Calculate your average score</h3>
+
+Number of Exams:<br>
+<input type="text" id="exam_num" onmousemove="style.background='yellow'"><br>
+
+
+
+<p>Click the button to get the Exam Number</p>
+
+<button onclick="exam_num()">Exam Number</button>
+
+<p id="numOfExams"></p>
+
+<script>
+var mi = document.createElement("input");
+mi.type= "text"
+mi.value = "default"
+</script>
+
+</body>
+</html>

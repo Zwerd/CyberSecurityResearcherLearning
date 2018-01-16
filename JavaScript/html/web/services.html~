@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="affordeble and professional web designe">
+	<meta name="keywords" content="web design, affordable web design, professional web designe">
+	<meta name="author" content="root" >
+	<title>Zwerd Web Design | About</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Zwerd</span> Web Design</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html" >Home</a></li>	
+					<li><a href="about.html" >About</a></li>	
+					<li class="current"><a href="services.html" >Services</a></li>				
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+		<section id="newsletter">
+			<div class="container">
+				<h1>Subscribe to our Newsletter</h1>
+				<form>
+					<input type="email" placeholder="Enter Email..."/>
+					<button type="submit" class="button_1">Subscribe</button>
+				</form>
+			</div>
+		</section>
+		<section id="main">
+			<div class="container">
+				<article id="about-me">
+					<h1 class="page-title">Services</h1>
+						<ul id="services">
+							<li>
+								<h3>Website Design</h3>
+								<p>The Web has made it easier than ever for new businesses to get started. No longer do companies need to establish a physical location for their business. Today, many companies operate solely online and their website is their "place of business". If you've never been involved in a new website project, one of the first questions you are likely to ask is "How much does a website cost?" Unfortunately, this question is impossible to answer unless you get much more specific.</p>
+								<p>Our Pricing: $1,000 - $3,000</p>
+							</li>
+							<li>
+								<h3>Website Maintenance</h3>
+								<p>Today’s informed consumer is able to quickly find your website and digital marketing presence to assess your credibility and whether you’re worthy of their time and money. Don’t lose conversions with a broken or vulnerable website. By partnering with Gravitate, all you will need to do is simply email our ticketing system and we will get to work.</p>
+								<p>Our Pricing: $250 per month</p>
+							</li>
+							<li>
+								<h3>Website Hosting</h3>
+								<p>A web hosting service is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by clients, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as Housing in Latin America or France.</p>
+								<p>Our Pricing: $25 per month</p>
+							</li>
+						</ul>
+				</article>
+				<aside id="sidebar">
+					<div class="dark">
+					<h3>Get a Quote</h3>
+					<form class="quote">
+						<div>
+							<label>Name</label><br>
+							<input type="text" placeholder="Name">			
+						</div>
+						<div>
+							<label>Email</label><br>
+							<input type="email" placeholder="Email address">			
+						</div>
+						<div>
+							<label>Message</label>
+							<textarea placeholder="Message"></textarea>			
+						</div>
+					<button type="submit" class="button_1">Send</button>
+					</form>					
+					</div>
+				</aside>
+			</div>
+		<footer>
+			<p>Zwerd Web Deisgn, Copyright &copy; 2017</p>
+		</footer>
+	</section>
+</body>		
+</html>
