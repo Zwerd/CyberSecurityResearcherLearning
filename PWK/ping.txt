@@ -1,0 +1,1 @@
+for loop in $(seq 140 150); do ping -c1 192.168.143.$loop; done;
